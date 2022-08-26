@@ -1,0 +1,23 @@
+{
+    "name": "uchoa/digital-cep",
+    "description": "Busca de CEP online",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Uchoa\\DigitalCep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Burnox",
+            "email": "blu.uchoa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    }
+}
